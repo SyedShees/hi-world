@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hi-world';
+  //title = 'Hi-SheesSyed';
+  kid="You Must Obey";
+  child=['ali','saad'];
+
+  addchild(newchild: string){
+    this.child.push(newchild);
+  }
 }

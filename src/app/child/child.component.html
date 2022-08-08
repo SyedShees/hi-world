@@ -1,0 +1,7 @@
+<div class="child">
+    <p>child says <strong>{{child}}</strong></p>
+    <label>add name</label>
+    <input type="text" id="child-input" #newchild>
+    <button (click)="addNewchild(newchild.value); newchild.value=''">Add</button>
+
+</div>
